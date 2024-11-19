@@ -18,6 +18,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Seo Test App",
   description: "This to to test the seo",
+  verification: {
+    google: "hCIcrQMgnRyeXKREgR8npH3NMf2pgXqw-1GQ6ehDt84",
+  },
 };
 
 export default function RootLayout({
@@ -30,10 +33,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <StoreProvider>
-
-        {children}
-        </StoreProvider>
+        <StoreProvider>{children}</StoreProvider>
       </body>
     </html>
   );
