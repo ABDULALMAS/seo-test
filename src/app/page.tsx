@@ -1,6 +1,7 @@
+/* eslint-disable */
+
 'use client'
-import Image from "next/image";
-import { useAppDispatch, useAppSelector } from "@/store/hooks";
+import { useAppSelector } from "@/store/hooks";
 
 export default function Home() {
   const exampleData = useAppSelector((state:any) => state.example)

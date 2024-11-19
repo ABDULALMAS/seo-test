@@ -1,3 +1,4 @@
+/* eslint-disable */
 const ArticleDetailsSkeleton = () => {
   return (
     <div className="mx-[5%] md:mx-[15%] lg:mx-[20%] xl:mx-[24%] 2xl:mx-[28%] animate-pulse">

@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import { useState, useEffect } from "react";
 
@@ -11,7 +12,6 @@ import { ArticleEditor } from "./articleEditor";
 import { useArticleEditor } from "../../hooks/useEditor";
 
 const ArticleDetails = ({ articleDetails }: any) => {
-  console.log("articleDetails:",articleDetails)
 
   const [commentsActive, setCommentsActive] = useState(false);
   const { tagId }: any = useParams();

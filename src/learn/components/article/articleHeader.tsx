@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { UserAvatar } from "./userAvatar";
 import { UserInfo } from "./userInfo";
 

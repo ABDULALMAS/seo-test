@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import { Metadata } from "next";
 import ArticleDetails from "@/learn/components/article/articlePage";

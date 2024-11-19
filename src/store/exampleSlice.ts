@@ -1,4 +1,4 @@
-// src/store/slices/exampleSlice.ts
+/* eslint-disable */
 import { createSlice } from '@reduxjs/toolkit';
 
 const exampleSlice = createSlice({

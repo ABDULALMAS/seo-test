@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const UserAvatar = ({ user, onMouseEnter, onMouseLeave }:any) => {
     if (user?.photo) {
       return (

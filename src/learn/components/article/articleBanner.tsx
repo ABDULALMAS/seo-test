@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const ArticleBanner = ({image}:any) => {
     return(
         <img

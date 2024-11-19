@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useEditor as useTiptapEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 

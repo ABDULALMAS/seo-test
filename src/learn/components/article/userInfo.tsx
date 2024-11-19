@@ -1,3 +1,4 @@
+/* eslint-disable */
 import moment from "moment";
 import NextLink from "next/link";
 

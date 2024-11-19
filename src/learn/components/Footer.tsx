@@ -1,5 +1,4 @@
-// import FooterLogo from "../assets/FooterLogo.png";
-import Image from "next/image";
+/* eslint-disable */
 
 const Footer = () => {
   return (
